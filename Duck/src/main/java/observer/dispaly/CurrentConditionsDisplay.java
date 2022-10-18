@@ -11,12 +11,12 @@ public class CurrentConditionsDisplay extends Display implements Observer, Displ
     }
 
     @Override
-    public void update(int temperature, int humidity, int pressure) {
+    public void update() {
         display();
     }
 
     @Override
     public void display() {
-        System.out.println("display!");
+        System.out.println("displai=" + weatherData.getTemperature() + weatherData.getPressure());
     }
 }

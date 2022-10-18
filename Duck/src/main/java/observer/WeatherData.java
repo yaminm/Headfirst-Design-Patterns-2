@@ -31,7 +31,7 @@ public class WeatherData implements Subject {
 
     @Override
     public void notifyObservers() {
-        observerList.stream().forEach(s -> s.update(getTemperature(), getHumidity(), getPressure()));
+        observerList.stream().forEach(s -> s.update());
     }
 
     public void measurementsChanged() {
