@@ -1,10 +1,8 @@
-package main.java;
+package main.java.duck;
 
 public class MallardDuck extends Duck{
     public MallardDuck() {
         //todo: concrete implementation -change!
-        quackBehavior = new Quack();
-        flyBehavior = new FlyWithWings();
     }
 
     @Override

@@ -1,4 +1,4 @@
-package main.java;
+package main.java.duck;
 
 public class FlyWithWings implements FlyBehavior {
 

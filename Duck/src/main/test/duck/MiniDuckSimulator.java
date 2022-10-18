@@ -1,2 +1,5 @@
-package main.test.duck;public class MiniDuckSimulator {
+package main.test.duck;
+
+public class MiniDuckSimulator {
+
 }

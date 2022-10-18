@@ -1,4 +1,4 @@
-package main.java;
+package main.java.duck;
 
 public abstract class Duck {
     FlyBehavior flyBehavior;
@@ -7,6 +7,13 @@ public abstract class Duck {
     public Duck() {
     }
 
+    public void setFlyBehavior(FlyBehavior flyBehavior) {
+        this.flyBehavior = flyBehavior;
+    }
+
+    public void setQuackBehavior(QuackBehavior quackBehavior) {
+        this.quackBehavior = quackBehavior;
+    }
 
     public void display(){
         System.out.println("display");
